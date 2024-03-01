@@ -1,7 +1,6 @@
-function add(a,b){
-
-    return a+b
+function add (a,b,c){
+   return a+b+c
 }
+console.log( add(66,77))
 
-console.log(add(10,20,40))
-console.log(add(40,20))
+

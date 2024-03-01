@@ -1,4 +1,27 @@
-var arr = [56,67,88,69,89,34,76]
+var arr = [22,33,44,55,66,77]
+
+var sum = 0
+
+for(i=0; i<arr.length; i++){
+    sum += arr[i]
+
+}
+console.log(sum)
+
+
+// console.log(arr.length)
+
+// arr.push(666,777)
+// arr.unshift(888,999)
+// arr.splice(2,4,"dhjj")
+// arr.pop()
+// arr.shift()
+
+
+
+
+
+
 
 
 // arr.push(70)
@@ -6,9 +29,9 @@ var arr = [56,67,88,69,89,34,76]
 // console.log(arr)
 // arr.unshift(9);
 // console.log(arr)
-console.log(arr)
-arr.splice(4,1)
-console.log(arr)
+// console.log(arr)
+// arr.splice(4,1)
+// console.log(arr)
 
 
 

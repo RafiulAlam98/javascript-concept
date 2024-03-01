@@ -1,10 +1,31 @@
-var obj = {
-    name:"Rocky",
-    age:50,
-    faculty:"Agriculture",
-    married:false,
-    bike:true
+var presidentRussia = {
+    name:"Jow Biden",
+    age:74,
+    gender:"Male",
+    dob:"24-03-1946",
+    salary:30.67,
+    isAlive:true,
+    children:[
+        {
+            id:1,
+            childrenName:"Kim Jong Un",
+            car:["Autorickshaw"]
+        },
+        {
+            id:2,
+            childrenName:"Khaza Nazimuddin",
+            car:["lamborghuini"]
+        },
+    ],
+    address:{
+        road:3,
+        state:"Washington DC",
+        house:"white house"
+    }
 }
+console.log(presidentRussia.children[0].car[0])
+
+
 
 
 
@@ -14,14 +35,14 @@ var obj = {
 // console.log(obj['faculty'])
 
 
-var obj2 ={
-    x:10,
-    y:20
-}
+// var obj2 ={
+//     x:10,
+//     y:20
+// }
 
-var value = 'z'
+// var value = 'z'
 
-console.log(obj2[value]) 
+// console.log(obj2[value]) 
 
 // console.log(obj['y'])
 
