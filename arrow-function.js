@@ -1,12 +1,9 @@
-function function_name(){
- return 
-}
+// function functionName(){
+//     return 
+// }
 
-const result = function_name()
+// functionName()
 
-const result2 = (a,b)=> (
-    a+b
-)
+const addTwoNumber = (a,b)=>
 
-console.log(result2(2,3))
-
+addTwoNumber(6,7)
